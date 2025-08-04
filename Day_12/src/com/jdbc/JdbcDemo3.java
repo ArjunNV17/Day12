@@ -20,6 +20,7 @@ public class JdbcDemo3 {
 
         String insert = "INSERT INTO user(name, email, mobileno) VALUES (?, ?, ?)";
         String select = "SELECT * FROM user";
+        
 
         try {
             // Load MySQL JDBC driver
