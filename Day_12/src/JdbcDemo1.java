@@ -16,7 +16,7 @@ public class JdbcDemo1 {
 	public static void main(String args[]) throws ClassNotFoundException, SQLException {
 		String url="jdbc:mysql://localhost:3306/jdbc";
 		String userName="root";
-		String pwd="Mahi@1789";
+		String pwd="nam1234";
 		String query="select * from sample";
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		Connection con=DriverManager.getConnection(url,userName,pwd);
